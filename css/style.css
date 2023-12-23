@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c991b1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px; /* Alterado de width para max-width */
+    padding: 20px;
+}
+
+header h1 {
+    margin-top: 20px; /* Ajustado o valor do margin-top */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-index,
+.btn-header,
+.btn-wpp {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: auto; /* Alterado de um valor fixo para "auto" para centralizar */
+    margin-right: auto; /* Adicionado para centralizar */
+    cursor: pointer;
+    background-color: #cd4391;
+    display: block; /* Alterado de inline para block para ocupar a largura disponível */
+    width: 60%; /* Definido a largura em relação ao pai (container) */
+    max-width: 200px; /* Adicionado um valor máximo para evitar que o botão fique muito largo */
+}
+
+.btn-index:hover,
+.btn-header:hover,
+.btn-wpp:hover {
+    background-color: #c47aa4;
+}
+
+ul {
+    margin-top: 20px; /* Ajustado o valor do margin-top */
+    text-align: center; /* Centralizado o texto */
+    font-size: 18px;
+}
+
+.caixa {
+    margin: 0 auto;
+    max-width: 400px; /* Alterado de width para max-width */
+    height: 200px;
+    background-color: rgb(222, 200, 200);
+}
+
+.caixa h4 {
+    text-align: center;
+    padding-top: 12px;
+}
+
+.caixa p {
+    padding: 0 20px; /* Ajustado o padding para melhor espaçamento */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
